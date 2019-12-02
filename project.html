@@ -1,15 +1,134 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>My test page</title>
-  </head>
-  <body>
-    <h1>This is my page</h1>
-	<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="picture">Picture</a></li>
-		<li>Project</li>
-	</ul>
-  </body>
+		<head>
+				<meta charset="utf-8">
+				<link href="css/minimal-table.css" rel="stylesheet" type="text/css">
+				<title>My test page</title>
+		</head>
+		<body>
+				<h1>This is my page</h1>
+				<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="picture">Picture</a></li>
+						<li>Project</li>
+				</ul>
+				<div>
+						<h2>table template</h2>
+						<table>
+								<caption>The first table</caption>
+								<!--td:table data 最小的内容容器的单元格-->
+								<!--tr:table row-->
+								<!--th:table header 表头-->
+								<!--thead,tfoot,tbody 定义表的结构-->
+								<thead>
+								<tr>
+										<td>Hi, I'm your first cell</td>
+										<td>Hi, I'm your second cell</td>
+										<td>Hi, I'm your three cell</td>
+										<td>Hi, I'm your four cell</td>
+								</tr>
+								</thead>
+								<tbody>
+								<tr>
+										<td>Second row,first cell</td>
+										<td>cell 2.</td>
+										<td>cell 3.</td>
+										<td>cell 4.</td>
+								</tr>
+								</tbody>
+						</table>
+				</div>
+				<div>
+						<h2>table template</h2>
+						<table>
+								<colgroup>
+										<col>
+										<col>
+										<col>
+										<col style="background-color: yellow">
+								</colgroup>
+								<!--td:table data 最小的内容容器的单元格-->
+								<!--tr:table row-->
+								<!--th:table header 表头-->
+								<tr>
+										<!--scope 表明为列标题-->
+										<th scope="col">Hi, I'm your first cell</th>
+										<th>Hi, I'm your second cell</th>
+										<th>Hi, I'm your three cell</th>
+										<th>Hi, I'm your four cell</th>
+								</tr>
+								<tr>
+										<td rowspan="2">Second row,first cell</td>
+										<td colspan="2" rowspan="2">cell 2.</td>
+										<td rowspan="2">cell 4.</td>
+								</tr>
+						</table>
+				</div>
+				<div>
+						<h2>School timetable</h2>
+
+						<table>
+								<colgroup>
+										<col>
+										<col>
+										<col style="background-color:#97DB9A">
+										<col style="width:42px">
+										<col style="background-color:#97DB9A">
+										<col style="background-color:#DCC48E; border:4px solid #C1437A;">
+										<col style="width:42px">
+										<col style="width:42px">
+								</colgroup>
+								<tr>
+										<td>&nbsp;</td>
+										<th>Mon</th>
+										<th>Tues</th>
+										<th>Wed</th>
+										<th>Thurs</th>
+										<th>Fri</th>
+										<th>Sat</th>
+										<th>Sun</th>
+								</tr>
+								<tr>
+										<th>1st period</th>
+										<td>English</td>
+										<td>&nbsp;</td>
+										<td>&nbsp;</td>
+										<td>German</td>
+										<td>Dutch</td>
+										<td>&nbsp;</td>
+										<td>&nbsp;</td>
+								</tr>
+								<tr>
+										<th>2nd period</th>
+										<td>English</td>
+										<td>English</td>
+										<td>&nbsp;</td>
+										<td>German</td>
+										<td>Dutch</td>
+										<td>&nbsp;</td>
+										<td>&nbsp;</td>
+								</tr>
+								<tr>
+										<th>3rd period</th>
+										<td>&nbsp;</td>
+										<td>German</td>
+										<td>&nbsp;</td>
+										<td>German</td>
+										<td>Dutch</td>
+										<td>&nbsp;</td>
+										<td>&nbsp;</td>
+								</tr>
+								<tr>
+										<th>4th period</th>
+										<td>&nbsp;</td>
+										<td>English</td>
+										<td>&nbsp;</td>
+										<td>English</td>
+										<td>Dutch</td>
+										<td>&nbsp;</td>
+										<td>&nbsp;</td>
+								</tr>
+						</table>
+				</div>
+		</body>
 </html>
