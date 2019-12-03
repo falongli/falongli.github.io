@@ -33,3 +33,66 @@ h1.class3{
 [title]{
 	color: #FF0;
 }
+
+body{
+		background-color:gray;
+		background-image: url(../pic/background.jpg);
+		/*background-repeat: 背景是否在某一方向重复 repeat-x  或者不重复 no-repeat*/
+		background-repeat:no-repeat;
+		/*背景定位*/
+		background-position:center;
+		background-attachment:fixed;
+}
+
+/*文本属性*/
+p{
+		text-indent:5em;
+		text-align:left;
+		word-spacing:0;
+		letter-spacing:normal;
+		text-transform:capitalize;
+		text-decoration:overline;
+
+		white-space:normal;
+		direction:ltr;
+}
+
+/*字体属性*/
+h2#font{
+		/*字体系列 大小 加粗 风格（变斜） 变形（小型大写字母）*/
+		font-family: sans-serif;
+		font-style: oblique;
+
+		font-weight: bold;
+		/*font-size:...*/
+}
+
+/*设置连接的样式
+ 能够根据所处的状态来设置相对应的样式
+ a:link
+ a:visited
+ a:hover
+ a:active
+ */
+a:link {background-color:#B2FF99;}
+a:visited {background-color:#FFFF85;}
+a:hover {background-color:#FF704D;}
+a:active {background-color:#FF704D;}
+
+/*list-style-type list-style-image list-style-position*/
+
+/*表格的样式*/
+table, th, td{
+		border: 1px solid blue;
+}
+table{
+		width:100%;
+		height:50px;
+}
+td{
+		text-align:left;
+		vertical-align:top;
+		padding:15px;
+		color:red;
+		background-color:white;
+}
