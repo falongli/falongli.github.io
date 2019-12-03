@@ -1,0 +1,35 @@
+/*元素 及元素派生*/
+h1{
+	color: red;
+}
+
+body p{
+	color: blue;
+}
+
+/*id选择器 及相关派生*/
+#id1 {
+	color: yellow;
+}
+
+#id2 strong {
+	color: green;
+}
+
+/*类选择器*/
+.class1 {
+	color: orange;
+}
+
+.class2 p{
+	color: gray;
+}
+
+h1.class3{
+	color: pink;
+}
+
+/*属性选择器*/
+[title]{
+	color: #FF0;
+}
