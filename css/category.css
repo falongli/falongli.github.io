@@ -5,6 +5,7 @@ h1{
 
 body p{
 	color: blue;
+	clear: left;
 }
 
 /*id选择器 及相关派生*/
